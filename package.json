@@ -1,0 +1,21 @@
+{
+  "name": "webrtc-project",
+  "version": "1.0.0",
+  "description": "example of a simples video chat app using webrtc protocol",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon /src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Willian Marques willian.goncalves4@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  }
+}

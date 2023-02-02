@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gother</title>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser-arcade-physics.min.js"></script> 
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="local-video-container">
+            <div class="local-video-area">
+                <video id="local-video" muted autoplay poster="./assets/basic-avatar.png"></video>
+            </div>
+            <div class="local-control-call">
+                <img alt="" src="./assets/video-controlls/true-audio-icon.png" id="control-audio">
+                <img alt="" src="./assets/video-controlls/true-video-icon.png" id="control-video">
+            </div>
+        </div>
+        <div class="video-container" id="video-container">
+        </div>
+    </div>
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>

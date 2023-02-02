@@ -14,4 +14,4 @@
 * npm run dev
 * open in browser http://localhost:3333
 
-![](https://github.com/willianmarquess/Your_GIF_Name.gif)
+![](https://github.com/willianmarquess/webrtc-project/blob/master/public/assets/project.gif)
